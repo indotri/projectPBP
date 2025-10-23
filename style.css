@@ -1,0 +1,119 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+  background: url('../rumah1.jpg') center/cover no-repeat;
+  height: 90vh;
+}
+
+.footer {
+  background-color: #212529;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  transition: 0.3s;
+}
+.card-img-top {
+  width: 200%;
+  height: 250px; 
+  object-fit: cover; 
+}
+
+body {
+  background-color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+a.text-dark:hover {
+  color: #0d6efd !important;
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+html, body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+main.flex-fill {
+  flex: 1;
+}
+
+footer {
+  width: 100%;
+}
+
+a.text-dark:hover {
+  color: #0d6efd !important;
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+.carousel-item img {
+  height: 480px;          
+  object-fit: cover;      
+  width: 100%;
+  filter: brightness(85%);
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.carousel-caption h2,
+.carousel-caption p {
+  color: #fff;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+.container {
+  margin-top: 60px !important; 
+}
+.card img {
+  height: 250px; 
+  width: 100%;
+  object-fit: cover; 
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 550px; 
+  object-fit: cover; 
+  image-rendering: auto; 
+}
+.navbar {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+  padding: 0.5rem 2rem;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  align-items: center; 
+  margin-left: 20px;
+}
+
+.navbar-brand img {
+  height: 40px; 
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+
+
